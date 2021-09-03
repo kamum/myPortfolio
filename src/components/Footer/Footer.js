@@ -6,9 +6,40 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <FooterWrapper>
-     Footer
-    </FooterWrapper>
+    <div style={{background: '#5361FF'}}>
+      <FooterWrapper>
+        <LinkList>
+          <LinkColumn>
+            <LinkTitle>Call</LinkTitle>
+            <LinkItem href="tel: +550219830-75474">
+              +550219830-75474
+            </LinkItem>
+          </LinkColumn>
+          <LinkColumn>
+            <LinkTitle>Email</LinkTitle>
+            <LinkItem href="jonathanmundi@gmail.com">
+              jonathanmundi@gmail.com
+            </LinkItem>
+          </LinkColumn>
+        </LinkList>
+        <SocialIconsContainer>
+          <CompanyContainer>
+            <Slogan>maked with Nextjs</Slogan>
+          </CompanyContainer>
+          <SocialContainer>
+            <SocialIcons href="https://github.com/kamum">
+              <AiFillGithub size="3rem" />
+            </SocialIcons>
+            <SocialIcons href="https://linkedin.com">
+              <AiFillLinkedin size="3rem" />
+            </SocialIcons>
+            <SocialIcons href="https://intagram.com">
+              <AiFillInstagram size="3rem" />
+            </SocialIcons>
+          </SocialContainer>
+        </SocialIconsContainer>
+      </FooterWrapper>
+    </div>
   );
 };
 
