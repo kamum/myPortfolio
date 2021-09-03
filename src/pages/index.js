@@ -5,6 +5,7 @@ import { Layout } from "../layout/Layout";
 import { Section } from "../styles/Globalcomponents";
 import BgAnimation from "../components/BackgroundAnimation/BackgroundAnimation";
 import TimeLine from "../components/TimeLine/TimeLine";
+import GithubInfo from "../components/GithubInfo/GithubInfo";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Projects/>
       <Technologies />
       <TimeLine />
+      <GithubInfo />
     </Layout>
   )
 }
