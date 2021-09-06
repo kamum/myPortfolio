@@ -1,13 +1,13 @@
 import React from 'react';
 import {DiFirebase, DiReact, DiZend} from 'react-icons/di'
-import { Section, SectionText2, SectionTitle2 } from '../../styles/Globalcomponents';
+import { Section, ContainerTitle, SectionText2, SectionTitle2 } from '../../styles/Globalcomponents';
 import { List, ListContainer,ListContainer2, ListImg, ListItem, ListSpan, ListTitle } from './TechnologiesStyles'
 
 const Technologies = () => (
     <Section id="Tech">
-        <div style={{display: 'flex', justifyContent: 'center'}}>
-            <SectionTitle2 main style={{alignItems: 'center'}}>Technologies</SectionTitle2>
-        </div>
+        <ContainerTitle>
+            <SectionTitle2 main>Technologies</SectionTitle2>
+        </ContainerTitle>
         <SectionText2>
             I've worked with a range a technologies in the web developement world.
             From Back-end to Design

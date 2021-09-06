@@ -1,16 +1,16 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, ImgCover, PictureCover } from './ProjectsStyles';
-import { Section, SectionTitle2 } from '../../styles/GlobalComponents';
+import { Section,ContainerTitle, SectionTitle2 } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 
 
 const Projects = () => (
   <Section  nopadding id="projects">
-    <div style={{display: 'flex', justifyContent: 'center'}}>
-        <SectionTitle2 main style={{alignItems: 'center'}}>Projects</SectionTitle2>
-    </div>
+    <ContainerTitle>
+        <SectionTitle2 main>Projects</SectionTitle2>
+    </ContainerTitle>
     <GridContainer>
       {projects.map(({id, image, title, description, tags, source, visit}) => (
         <BlogCard key={id}>

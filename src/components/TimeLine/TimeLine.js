@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionText2, SectionTitle2 } from '../../styles/GlobalComponents';
+import { ContainerTitle, Section, SectionText2, SectionTitle2 } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -46,9 +46,9 @@ const TimeLine = () => {
     return (
         <div>
             <Section id="about">
-                <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <SectionTitle2 main style={{ alignItems: 'center' }}>About me</SectionTitle2>
-                </div>
+                <ContainerTitle>
+                    <SectionTitle2 main>About me</SectionTitle2>
+                </ContainerTitle>
                 <SectionText2>
                     My purpose  is to help you with your project
                 </SectionText2>

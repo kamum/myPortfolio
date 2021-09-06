@@ -22,7 +22,11 @@ export const Section = styled.section`
     width: calc(100vw - 32px);
     flex-direction: column;
   }
-`
+`;
+export const ContainerTitle = styled.div`
+   display: flex; 
+   justify-content: center;
+`;
 export const SectionTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '72px' : '65px'};
@@ -51,11 +55,12 @@ export const SectionTitle = styled.h2`
     padding: ${(props) => props.main ? '16px 0 8px' : '0'};
     max-width: 100%;
   }
-`
+`;
 export const SectionTitle2 = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '72px' : '65px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
+  align-items: center;
   width: max-content;
   max-width: 100%;
   color: #2A3B47;
@@ -101,7 +106,7 @@ export const SectionTitle2 = styled.h2`
       width: 60px;
     }
   }
-`
+`;
 export const SectionText = styled.p`
   max-width: 800px;
   font-size: 24px;
@@ -122,7 +127,7 @@ export const SectionText = styled.p`
     line-height: 24px;
     padding-bottom: 16px;
   }
-`
+`;
 
 export const SectionText2 = styled.p`
   max-width: 800px;
@@ -144,4 +149,4 @@ export const SectionText2 = styled.p`
     line-height: 24px;
     padding-bottom: 16px;
   }
-`
+`;
