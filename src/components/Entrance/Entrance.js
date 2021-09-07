@@ -4,9 +4,9 @@ import {Section,SectionText, SectionTitle} from '../../styles/Globalcomponents'
 import {LeftSection} from './EntranceStyles'
 
 const Entrance = (props) => (
-    <Section row nopadding>
+    <Section row nopadding id="home">
         <LeftSection>
-            <SectionTitle>
+            <SectionTitle main>
                 Welcome to <br/> My Personal Portfolio
             </SectionTitle>
             <SectionText>

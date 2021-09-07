@@ -4,7 +4,7 @@ import { Section, ContainerTitle, SectionText2, SectionTitle2 } from '../../styl
 import { List, ListContainer,ListContainer2, ListImg, ListItem, ListSpan, ListTitle } from './TechnologiesStyles'
 
 const Technologies = () => (
-    <Section id="Tech">
+    <Section id="tech">
         <ContainerTitle>
             <SectionTitle2 main>Technologies</SectionTitle2>
         </ContainerTitle>

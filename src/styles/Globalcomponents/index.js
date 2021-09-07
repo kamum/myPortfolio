@@ -36,7 +36,7 @@ export const SectionTitle = styled.h2`
   color: #FFFFFF;
   text-shadow: 0 20px 25px rgba(0,0,0,.5);
   margin-bottom: 16px;
-  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  padding: ${(props) => props.main ? '100px 0 16px' : '0'};
   
 
   @media ${props => props.theme.breakpoints.md}{
@@ -65,7 +65,7 @@ export const SectionTitle2 = styled.h2`
   max-width: 100%;
   color: #2A3B47;
   margin-bottom: 16px;
-  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  padding: ${(props) => props.main ? '100px 0 16px;' : '0'};
   position: relative;
 
   &:after {
@@ -76,7 +76,7 @@ export const SectionTitle2 = styled.h2`
     left: 0;
     right: 0;
     margin: auto;
-    top: 15rem;
+    top: 18rem;
     background-color: #5361FF;
   }
 
