@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import {SiNextDotJs} from 'react-icons/si'
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -24,7 +25,7 @@ const Footer = () => {
         </LinkList>
         <SocialIconsContainer>
           <CompanyContainer>
-            <Slogan>maked with Nextjs</Slogan>
+            <Slogan>Created with <SiNextDotJs/> Next.js</Slogan>
           </CompanyContainer>
           <SocialContainer>
             <SocialIcons href="https://github.com/kamum">
